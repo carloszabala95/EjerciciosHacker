@@ -8,7 +8,7 @@ public class RepeatedString { //creo una clase de cadenaRepetida
         long c = n/s.length(); //Esto dará el numero de cadenas completas que se repetiran
         long r = n%s.length(); //Esto enseñará el número de residuos o cadenas incompletas que comprenden el arreglo por completar.
         long tamanSubcaden = (r ==0) ? 0 : r ; //Si residuo es 0, ubique 0 como valor por añadir a una cadena simple, si tiene otro valor se ubica allí
-        long aConteo = c * getCuentaLetras(s,cadenaLog)+ getCuentaLetras(s,tamanSubcaden);
+        long aConteo = c * getCuentaLetras(s,cadenaLog) + getCuentaLetras(s,tamanSubcaden);
         return aConteo;
 
     }
